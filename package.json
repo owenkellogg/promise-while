@@ -6,6 +6,10 @@
   "scripts": {
     "test": "mocha -R spec test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevenzeiler/promise-while.git"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
