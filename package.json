@@ -1,5 +1,5 @@
 {
-  "name": "stevenzeiler",
+  "name": "promise-while",
   "version": "1.0.0",
   "description": "While loops for asynchronous javascript",
   "main": "index.js",
