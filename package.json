@@ -1,0 +1,15 @@
+{
+  "name": "stevenzeiler",
+  "version": "1.0.0",
+  "description": "While loops for asynchronous javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bluebird": "^2.9.6",
+    "mocha": "^2.1.0"
+  }
+}
