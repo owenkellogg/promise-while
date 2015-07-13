@@ -5,7 +5,7 @@ module.exports = function(Promise) {
 
     var loop = function() {
       if (!condition()) return resolver.resolve();
-      return Promise.cast(action())
+      return Promise.resolve(action())
         .then(loop)
         .catch(resolver.reject);
     };
