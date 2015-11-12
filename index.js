@@ -7,7 +7,9 @@ module.exports = function(Promise) {
       if (!condition()) return resolver.resolve();
       return Promise.cast(action())
         .then(loop)
-        .catch(resolver.reject);
+        .catch(function (e) {
+          resolver.reject(e);
+        });
     };
 
     process.nextTick(loop);
